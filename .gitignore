@@ -3,3 +3,4 @@ data
 .env
 scraping_session.session
 photos
+labeled_data

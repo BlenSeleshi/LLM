@@ -1,0 +1,7 @@
+# Amharic NER System for Product Information Extraction
+
+This project focuses on fine-tuning a Named Entity Recognition (NER) system for Amharic text to extract product names, prices, and locations from Telegram-based e-commerce channels, particularly the @MerttEka channel. We leveraged transformer models like XLM-Roberta to create a robust system capable of identifying entities from unstructured Amharic messages. The project’s ultimate goal is to develop a reliable tool for automating product information extraction from Amharic Telegram channels.
+
+The dataset consists of product-related messages scraped from the Telegram channel. These messages were preprocessed, tokenized, and labeled with relevant entities like Product Names, Prices, and Locations, all organized in CoNLL format for model training. We faced several challenges during data preparation, such as handling Amharic tokenization and irregular price formats, but implemented effective preprocessing techniques to address these.
+
+The model was trained using Hugging Face's transformers, and we fine-tuned it on XLM-Roberta. We merged over 10 CoNLL files into a single merged_output.conll for training. Although we encountered some limitations with model comparison and selection (Task 4 and Task 5), the system shows strong potential for accurate extraction of product-related information, and future iterations will compare other models like DistilBERT and mBERT for enhanced performance.

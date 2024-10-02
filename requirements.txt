@@ -2,3 +2,7 @@ python-dotenv
 telethon 
 pandas
 amseg
+transformers
+numpy
+evaluate
+datastes
